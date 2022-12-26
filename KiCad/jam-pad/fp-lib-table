@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "jam-pad")(type "KiCad")(uri "${KIPRJMOD}/footprints/jam-pad.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/footprints/Keebio-Parts.pretty-master")(options "")(descr ""))
+)
