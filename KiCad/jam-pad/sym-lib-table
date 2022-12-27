@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name "jam-pad")(type "KiCad")(uri "${KIPRJMOD}/symbols/jam-pad.kicad_sym")(options "")(descr ""))
   (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/symbols/keebio-components-master/keebio.lib")(options "")(descr ""))
-  (lib (name "jackrabbit")(type "KiCad")(uri "${KIPRJMOD}/symbols/jackrabbit.kicad_sym")(options "")(descr ""))
 )
