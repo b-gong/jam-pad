@@ -236,7 +236,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "jam-pad",
+      "keebio"
+    ]
   },
   "meta": {
     "filename": "jam-pad.kicad_pro",
