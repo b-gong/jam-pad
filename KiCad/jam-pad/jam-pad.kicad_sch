@@ -3717,7 +3717,7 @@
     (uuid 63dc5db1-8abb-4175-974e-e0f00b8ce6ce)
     (property "Reference" "U1" (id 0) (at 158.75 137.16 0))
     (property "Value" "RP2040" (id 1) (at 212.09 236.22 0))
-    (property "Footprint" "jackrabbit:RP2040-QFN-56_HandSoldering" (id 2) (at 168.91 186.69 0)
+    (property "Footprint" "jam-pad:RP2040-QFN-56_HandSoldering" (id 2) (at 168.91 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" (id 3) (at 168.91 186.69 0)
@@ -4729,7 +4729,7 @@
     (uuid efb321da-8384-4118-a41b-6508be470393)
     (property "Reference" "SW14" (id 0) (at 322.58 165.2102 0))
     (property "Value" "RotaryEncoder_Switch" (id 1) (at 322.58 167.7471 0))
-    (property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" (id 2) (at 318.77 169.926 0)
+    (property "Footprint" "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" (id 2) (at 318.77 169.926 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 322.58 167.386 0)
@@ -5078,13 +5078,13 @@
       (reference "SW13") (unit 1) (value "SW_Push") (footprint "jam-pad:SW_Push_PTS526")
     )
     (path "/efb321da-8384-4118-a41b-6508be470393"
-      (reference "SW14") (unit 1) (value "RotaryEncoder_Switch") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
+      (reference "SW14") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
     )
     (path "/da79fde2-9656-4d98-ba04-84a092367b96"
       (reference "SW15") (unit 1) (value "SW_Push") (footprint "jam-pad:SW_Push_PTS526")
     )
     (path "/63dc5db1-8abb-4175-974e-e0f00b8ce6ce"
-      (reference "U1") (unit 1) (value "RP2040") (footprint "jackrabbit:RP2040-QFN-56_HandSoldering")
+      (reference "U1") (unit 1) (value "RP2040") (footprint "jam-pad:RP2040-QFN-56_HandSoldering")
     )
     (path "/121f6c4b-b828-4bc1-9cfa-ef4ecc4fc396"
       (reference "U2") (unit 1) (value "OLED_RGB_128x128_waveshare") (footprint "jam-pad:Display_Waveshare_OLED_1.5inch_128x128")
