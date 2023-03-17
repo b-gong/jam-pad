@@ -334,8 +334,7 @@
       "MX_Only"
     ],
     "pinned_symbol_libs": [
-      "jam-pad",
-      "keebio"
+      "jam-pad"
     ]
   },
   "meta": {

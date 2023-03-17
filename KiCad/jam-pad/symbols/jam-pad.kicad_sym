@@ -137,7 +137,7 @@
     (property "Value" "MX_Hotswap_LED_RGB" (id 1) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 2.54 0)
+    (property "Footprint" "jam-pad:MXOnly-1U-Hotswap-SK6812MINI-E" (id 2) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 2.54 0)
