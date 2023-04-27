@@ -14,7 +14,7 @@ OUTPUTDIR := fab
 
 ${OUTPUTDIR}/pos.csv: ${BOARD}.kicad_pcb ${BOARD}.kicad_sch
 	if not exist $(OUTPUTDIR) mkdir $(OUTPUTDIR)
-	kikit fab jlcpcb --assembly --schematic ${BOARD}.kicad_sch ${BOARD}.kicad_pcb ${OUTPUTDIR}
+	kikit fab jlcpcb --assembly --no-drc --schematic ${BOARD}.kicad_sch ${BOARD}.kicad_pcb ${OUTPUTDIR}
     
 #${PANELDIR}/${BOARD}_panel.kicad_pcb: ${BOARD}.kicad_pcb
 #	if not exist $(PANELDIR) mkdir $(PANELDIR)
