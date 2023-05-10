@@ -1,0 +1,32 @@
+Drill report for jam-pad.kicad_pcb
+Created on Fri Apr 28 03:37:43 2023
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'jam-pad.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (111 holes)
+    T2  0.305mm  0.0120"  (4 holes)
+    T3  0.350mm  0.0138"  (9 holes)
+    T4  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T5  1.000mm  0.0394"  (8 holes)
+    T6  1.500mm  0.0591"  (2 holes)  (with 2 slots)
+    T7  2.200mm  0.0866"  (2 holes)
+
+    Total plated holes count 140
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T8  0.650mm  0.0256"  (2 holes)
+    T9  1.750mm  0.0689"  (18 holes)
+    T10  3.000mm  0.1181"  (18 holes)
+    T11  3.988mm  0.1570"  (9 holes)
+
+    Total unplated holes count 47
