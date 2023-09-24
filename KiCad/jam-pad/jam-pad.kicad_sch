@@ -8370,7 +8370,7 @@
     (property "Value" "RotaryEncoder_Switch" (at 179.07 156.3171 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" (at 175.26 158.496 0)
+    (property "Footprint" "jam-pad:PEC11" (at 175.26 158.496 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 155.956 0)
