@@ -1,0 +1,109 @@
+{
+    "keyboard_name": "jampad",
+    "manufacturer": "b-gong",
+    "maintainer": "b-gong",
+    "url": "https://github.com/b-gong/jam-pad",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x7A19",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "encoder": true,
+        "extrakey": true,
+        "nkro": true,
+        "rgblight": true,
+        "rgb_matrix": true
+    },
+    "bootmagic": {
+        "enabled": true,
+        "matrix": [0, 3]
+    },
+    "matrix_pins": {
+        "rows": ["GP0", "GP1", "GP2"],
+        "cols": ["GP3", "GP4", "GP5", "GP6"]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP12", "pin_b": "GP14", "resolution": 4}
+        ]
+    },
+    "ws2812": {
+        "pin": "GP8",
+        "driver": "vendor"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "animations": {
+            "gradient_up_down": true,
+            "gradient_left_right": true,
+            "breathing": true,
+            "cycle_all": true,
+            "cycle_left_right": true,
+            "cycle_up_down": true,
+            "raindrops": true,
+            "jellybean_raindrops": true,
+            "pixel_rain": true,
+            "typing_heatmap": true,
+            "solid_reactive_simple": true,
+            "solid_reactive": true,
+            "splash": true,
+            "multisplash": true,
+            "solid_splash": true,
+            "solid_multisplash": true
+        },
+        "default": {
+            "animation": "typing_heatmap",
+            "hue": 170,
+            "sat": 255,
+            "val": 120,
+            "speed": 128
+        },
+        "layout": [
+            {"matrix": [0, 0], "x": 0, "y": 64, "flags": 4},
+            {"matrix": [0, 1], "x": 0, "y": 32, "flags": 4},
+            {"matrix": [0, 2], "x": 0, "y": 0, "flags": 4},
+            {"matrix": [1, 2], "x": 112, "y": 0, "flags": 4},
+            {"matrix": [1, 1], "x": 112, "y": 32, "flags": 4},
+            {"matrix": [1, 0], "x": 112, "y": 64, "flags": 4},
+            {"matrix": [2, 0], "x": 224, "y": 64, "flags": 4},
+            {"matrix": [2, 1], "x": 224, "y": 32, "flags": 4},
+            {"matrix": [2, 2], "x": 224, "y": 0, "flags": 4}
+        ],
+        "max_brightness": 120,
+        "sleep": true
+    },
+    "rgblight": {
+        "driver": "custom",
+        "led_count": 6,
+        "max_brightness": 80,
+        "sleep": true,
+        "default": {
+            "animation": "static_light",
+            "on": true,
+            "hue": 0,
+            "sat": 255,
+            "val": 80
+        }
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 2], "x": 0, "y": 0},
+                {"matrix": [1, 2], "x": 1, "y": 0},
+                {"matrix": [2, 2], "x": 2, "y": 0},
+                {"matrix": [0, 1], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [2, 1], "x": 2, "y": 1},
+                {"matrix": [0, 0], "x": 0, "y": 2},
+                {"matrix": [1, 0], "x": 1, "y": 2},
+                {"matrix": [2, 0], "x": 2, "y": 2},
+                {"matrix": [0, 3], "x": 4, "y": 1}
+            ]
+        }
+    }
+}
