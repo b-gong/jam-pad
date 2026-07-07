@@ -18,6 +18,7 @@
         "nkro": true,
         "rgblight": true,
         "rgb_matrix": true
+        "mousekey": true
     },
     "bootmagic": {
         "enabled": true,
